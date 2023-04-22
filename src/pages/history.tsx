@@ -32,7 +32,7 @@ export default function About() {
                     a Tanne que ela tinha esquecido a blusa, e quando ela viu quem tava mandando a mensagem, ela surtou, ela finalmente conseguiu achar 
                     o cara maravilhoso do bar da noite anterior. Ela sabia que não tinha esquecido blusa alguma, e o Pedro logo confessou que só inventou
                      a história da blusa porquê foi a primeira coisa que passou pela cabeça dele às 2h da manhã enquanto ele a procurava. Desde então, 
-                     eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro. 
+                     eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
                 <div>
                     <Image src={chaoVila} width={800} alt="foto casal" />
