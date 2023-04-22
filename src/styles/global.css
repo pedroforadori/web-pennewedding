@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  margin: 100px auto;
+  max-width: 500px;
+  padding-bottom: 100px;
+}
+
+input:required{
+  background-color: transparent;
+}
