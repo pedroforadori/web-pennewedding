@@ -1,6 +1,6 @@
 import Image from "next/image";
-import camisetaPalmeiras from '../../public/assets/camiseta.jpg';
-import chaoVila from '../../public/assets/chao-vila.jpg';
+import camisetaPalmeiras from '/public/assets/camiseta.jpg';
+import chaoVila from '/public/assets/chao-vila.jpg';
 
 export default function About() {
     return(
