@@ -13,7 +13,7 @@ export default function About() {
                     <Image src='/assets/camiseta.jpg' width={800} height={500} alt="foto casal" />
                 </div>
                 <div>
-                    <Image src='/../public/assets/chao-vila.jpg' width={800} height={500} alt="foto casal" />
+                    <Image src='/chao-vila.jpg' width={800} height={500} alt="foto casal" />
                 </div>
                 <div className="flex justify-center items-center w-[800px] text-lg px-10">
                     Era uma bela quarta-feira de outubro em 2019, dia de Brasileirão, quando os dois decidiram ir assistir ao jogo do Palmeiras e Santos, 
