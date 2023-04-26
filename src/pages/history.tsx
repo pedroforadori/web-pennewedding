@@ -1,4 +1,5 @@
 import Image from "next/image";
+import camiseta from "../../public/assets/camiseta.jpg"
 
 export default function About() {
     return(
@@ -10,7 +11,7 @@ export default function About() {
                     acabaria resultando nessa história de amor que iremos contar abaixo:
                 </div>
                 <div>
-                    <Image src='/assets/camiseta.jpg' width={800} height={500} alt="foto casal" />
+                    <Image src={camiseta} width={800} height={500} alt="foto casal" />
                 </div>
                 <div>
                     <Image src='/chao-vila.jpg' width={800} height={500} alt="foto casal" />
