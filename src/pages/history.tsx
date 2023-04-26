@@ -13,7 +13,7 @@ export default function About() {
                     <Image src="/assets/camiseta.JPG" width={800} height={500} alt="foto casal" />
                 </div>
                 <div>
-                    <Image src='/chao-vila.jpg' width={800} height={500} alt="foto casal" />
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
                 </div>
                 <div className="flex justify-center items-center w-[800px] text-lg px-10">
                     Era uma bela quarta-feira de outubro em 2019, dia de Brasileirão, quando os dois decidiram ir assistir ao jogo do Palmeiras e Santos, 
@@ -33,10 +33,10 @@ export default function About() {
                      eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
                 <div>
-                    <Image src='/../public/assets/chao-vila.jpg' width={800} height={500} alt="foto casal" />
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
                 </div>
                 <div>
-                    <Image src='/../public/assets/chao-vila.jpg' width={800} height={500} alt="foto casal" />
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
                 </div>
                 <div className="flex justify-center items-center w-[800px] text-lg px-10">
                     Esse momento chegou, e eles não poderiam estar mais felizes de estar construindo essa história de amor. E isso é apenas o início 
