@@ -10,7 +10,7 @@ module.exports = {
         aerotis: ['Aerotis, cursive']
       },
       backgroundImage: {
-        "app": "url(https://pennewedding.com.br/assets/palmeiras.JPG)"
+        "app": "url(/assets/palmeiras.JPG)"
         //app: 'url(/assets/aerea.jpeg)'
       },
       backgroundSize: {
