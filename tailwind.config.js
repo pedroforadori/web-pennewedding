@@ -10,7 +10,8 @@ module.exports = {
         aerotis: ['Aerotis, cursive']
       },
       backgroundImage: {
-        app: 'url(/../assets/palmeiras.jpg)'
+        app: 'url(/assets/palmeiras.jpg)'
+        //app: 'url(/assets/aerea.jpeg)'
       },
       backgroundSize: {
         '50%': '50%',

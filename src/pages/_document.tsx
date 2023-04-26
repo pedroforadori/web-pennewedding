@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript, } from "next/document";
+import Image from "next/image";
 
 export default function Document () {
     return (
@@ -11,10 +12,10 @@ export default function Document () {
                 
             <link rel="shortcut icon" href="/assets/eucalipto.ico" />
         </Head>
-        <body className="bg-app bg-cover bg-bottom bg-no-repeat h-screen">
+        <body className="bg-app bg-cover bg-bottom bg-no-repeat h-screen">            
             <Main />
             <NextScript />
-        </body>
+        </body> 
         </Html>
     )
     
