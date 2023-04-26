@@ -10,7 +10,7 @@ module.exports = {
         aerotis: ['Aerotis, cursive']
       },
       backgroundImage: {
-        "app": "url(/assets/palmeiras.JPG)"
+        "app": "url(https://penne-wedding.vercel.app/assets/palmeiras.JPG)"
         //app: 'url(/assets/aerea.jpeg)'
       },
       backgroundSize: {
