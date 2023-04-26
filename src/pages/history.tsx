@@ -1,5 +1,5 @@
 import Image from "next/image";
-import camiseta from "../../public/assets/camiseta.jpg"
+import camiseta from "/public/assets/camiseta.jpg"
 
 export default function About() {
     return(
