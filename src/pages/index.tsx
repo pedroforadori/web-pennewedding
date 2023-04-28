@@ -6,9 +6,9 @@ import abelImg from '../../public/assets/aerea.jpeg'
 export default function Home() {
   return (
     <div>
-      <div className="flex justify-center items-center h-[90vh]">
+      <div className="flex justify-center items-center h-[90vh] max-sm:items-start max-sm:mt-32">
         <div className="max-sm:p-2">
-          <div className="text-white text-9xl flex flex-col justify-center items-center w-full">
+          <div className="text-white text-9xl flex flex-col justify-center items-center w-full max-sm:text-5xl">
             <motion.p 
               className="w-2/5 flex justify-center text-justify uppercase"
               initial={{ y: 10 }}
@@ -17,7 +17,7 @@ export default function Home() {
               Tanne 
             </motion.p> 
             <motion.p 
-              className="w-2/5 text-5xl max-sm:w-full flex justify-center uppercase"
+              className="w-2/5 text-5xl max-sm:w-full flex justify-center uppercase max-sm:text-4xl"
               initial={{ y: 10 }}
               animate={{ y: 0 }}
             >

@@ -3,19 +3,16 @@ import Image from "next/image";
 export default function About() {
     return(
         <div className="w-screen h-screen bg-white flex items-center flex-col">
-            <h1 className="font-aerotis text-wedding-500 text-7xl mt-12"> Nossa história</h1>
-            <div className="grid grid-cols-2 mt-12">
-                <div className="flex justify-center items-center w-[800px] text-xl px-10">
-                    Quem diria que um furo de um amigo do Pedro para assistir o jogo do Palmeiras e um encontro mal sucedido do tinder da Tanne, 
-                    acabaria resultando nessa história de amor que iremos contar abaixo:
-                </div>
-                <div>
-                    <Image src="/assets/camiseta.JPG" width={800} height={500} alt="foto casal" />
-                </div>
+            <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-2xl"> Nossa história</h1>
+            <div className="grid grid-cols-2 mt-12 max-sm:grid-cols-1">
                 <div>
                     <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
                 </div>
-                <div className="flex justify-center items-center w-[800px] text-lg px-10">
+                <div className="flex justify-center items-center w-[800px] text-xl px-10 max-sm:w-auto max-sm:text-xs max-sm:mt-4">
+                    Quem diria que um furo de um amigo do Pedro para assistir o jogo do Palmeiras e um encontro mal sucedido do tinder da Tanne, 
+                    acabaria resultando nessa história de amor que iremos contar abaixo:
+                </div>
+                <div className="flex justify-center items-center w-[800px] text-lg px-10 max-sm:w-auto max-sm:text-xs">
                     Era uma bela quarta-feira de outubro em 2019, dia de Brasileirão, quando os dois decidiram ir assistir ao jogo do Palmeiras e Santos, 
                     cada um com o seu respectivo plano para aquele jogo. Eis que no primeiro momento em que eles se olharam, não conseguiram mais se evitar. 
                     Com certeza existia algo nessa conexão que precisaria ser explorada. Mas como? A Tanne estava em um encontro com outro cara e o Pedro 
@@ -24,7 +21,14 @@ export default function About() {
                     costume), mas o Pedro encontrou uma ruiva palmeirense, a qual ele poderia ter certeza de que era a Tanne, e avisou que ela tinha 
                     esquecido a blusa dela no banco do bar, e que se ela quisesse de volta, estaria com ele. 
                 </div>
-                <div className="flex justify-center items-center w-[800px] text-lg px-10">
+                <div>
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" className="max-sm:hidden" />
+                </div>
+                <div>
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" className="max-sm:hidden"/>
+                </div>
+               
+                <div className="flex justify-center items-center w-[800px] text-lg px-10 max-sm:w-auto max-sm:text-xs">
                     A ruiva que ele achou, por muita sorte, destino, acaso, sina, desígnio, o que quer que seja, era a irmã da Tanne, a Gabi, 
                     que ficou muito brava com o fato da Tanne ter esquecido a blusa que ela a havia emprestado num bar. A Gabi já foi logo avisando 
                     a Tanne que ela tinha esquecido a blusa, e quando ela viu quem tava mandando a mensagem, ela surtou, ela finalmente conseguiu achar 
@@ -32,16 +36,14 @@ export default function About() {
                      a história da blusa porquê foi a primeira coisa que passou pela cabeça dele às 2h da manhã enquanto ele a procurava. Desde então, 
                      eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
-                <div>
-                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
-                </div>
-                <div>
-                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" />
-                </div>
-                <div className="flex justify-center items-center w-[800px] text-lg px-10">
+                <div className="flex justify-center items-center w-[800px] text-lg px-10 max-sm:w-auto max-sm:text-xs max-sm:mb-4">
                     Esse momento chegou, e eles não poderiam estar mais felizes de estar construindo essa história de amor. E isso é apenas o início 
                     de uma linda jornada juntos...
                 </div>
+                <div>
+                    <Image src='/assets/chao-vila.JPG' width={800} height={500} alt="foto casal" className="max-sm:hidden" />
+                </div>
+               
                 
             </div>
 
