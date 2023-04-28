@@ -58,13 +58,13 @@ export default function Confirm() {
     }
     
     return (
-        <div className="w-full h-[80vh] flex justify-center items-end">
-            <div className="mt-80 flex justify-center flex-col items-center">
-                <h1 className="text-6xl text-wedding-500 text-bold max-sm:text-4xl">Confirme sua presença aqui!</h1>
-                <div className="w-full flex flex-row mt-10 ">
+        <div className="w-screen flex justify-center items-end">
+            <div className="h-[90vh] flex justify-end flex-col items-center">
+                <h1 className="text-6xl text-white text-bold max-sm:text-2xl">Confirme sua presença aqui!</h1>
+                <div className="w-full flex flex-row mt-10 justify-center max-sm:px-2">
                     <form className="text-black max-sm:flex-col" onSubmit={confirmGuest}>
                         <input 
-                            className="w-60 h-20 bg-wedding-100 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold  placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
+                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold  placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
                             type="text" 
                             placeholder="Seu Nome" 
                             value={name}
@@ -72,20 +72,20 @@ export default function Confirm() {
                         />
                         <InputMask
                             mask="(99) 99999-9999"
-                            className="w-60 h-20 bg-wedding-100 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
+                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
                             type="text" 
                             placeholder="Seu Celular" 
                             value={phone}
                             onChange={(event) => setPhone(event.target.value)}
                         />
                         <button 
-                            className="w-20 h-20 bg-wedding-500 text-white text-2xl font-bold hover:bg-wedding-100 hover:text-black max-sm:w-full max-sm:mt-4"
+                            className="w-20 h-20 bg-wedding-100 text-white text-2xl font-bold hover:bg-wedding-100 hover:text-black max-sm:w-full max-sm:mt-4"
                             type="submit">
                                 Eu vou
                         </button>
                     </form>
                 </div>
-                <div className="flex justify-arround items-center mt-10 h-10">
+                <div className="flex justify-arround items-center mt-10">
                     {confirmed && (
                         <p className="text-4xl text-wedding-500 text-bold font-bold flex justify-center text-justify w-full max-sm:mt-2  max-sm:text-2xl">
                         {confirmed}
