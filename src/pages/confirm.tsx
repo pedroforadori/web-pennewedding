@@ -59,12 +59,13 @@ export default function Confirm() {
     
     return (
         <div className="w-screen flex justify-center items-end">
-            <div className="h-[90vh] flex justify-end flex-col items-center">
-                <h1 className="text-6xl text-white text-bold max-sm:text-2xl">Confirme sua presença aqui!</h1>
+            <div className="h-[90vh] flex flex-col items-center">
+                <h1 className="text-6xl text-white text-bold max-sm:text-2xl max-sm:text-wedding-500 max-sm:mt-4">Confirme sua presença aqui!</h1>
                 <div className="w-full flex flex-row mt-10 justify-center max-sm:px-2">
                     <form className="text-black max-sm:flex-col" onSubmit={confirmGuest}>
                         <input 
-                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold  placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
+                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold  placeholder:text-2xl focus:outline-none max-sm:w-full 
+                            max-sm:mt-2 max-sm:border max-sm:border-b-wedding-500"
                             type="text" 
                             placeholder="Seu Nome" 
                             value={name}
@@ -72,7 +73,8 @@ export default function Confirm() {
                         />
                         <InputMask
                             mask="(99) 99999-9999"
-                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold placeholder:text-2xl focus:outline-none max-sm:w-full max-sm:mt-2"
+                            className="w-60 h-20 mr-2 pl-3 text-wedding-500 text-2xl font-bold placeholder:text-wedding-500 placeholder:font-bold placeholder:text-2xl focus:outline-none max-sm:w-full 
+                            max-sm:mt-2 max-sm:border max-sm:border-b-wedding-500"
                             type="text" 
                             placeholder="Seu Celular" 
                             value={phone}
