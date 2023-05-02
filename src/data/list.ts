@@ -29,7 +29,7 @@ export default [
         id: 3,
         image: '/assets/jantar-noiva.jpeg',
         title: 'Rolo de Macarrao',
-        resume: 'Jantar para noiva para o grande dia',
+        resume: 'Jantar da noiva para o grande dia',
         buy: 'https://pag.ae/7ZmT6DDnP',
         value: 'R$ 50,00'
     },
