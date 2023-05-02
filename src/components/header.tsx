@@ -22,7 +22,7 @@ export default function Header() {
       </Link>
 
       <Link
-        href="https://github.com/pedroforadori"
+        href="/list-present"
         className="hover:underline"
       >
         Lista de Presentes

@@ -58,8 +58,8 @@ export default function Confirm() {
     }
     
     return (
-        <div className="w-screen h-screen bg-white flex">
-            <div className="h-[90vh] flex flex-col items-center justify-center">
+        <div className="max-sm:bg-white flex">
+            <div className="h-[90vh] flex flex-col items-center justify-center ml-10 max-sm:ml-0">
                 <h1 className="text-6xl text-white text-bold max-sm:text-2xl max-sm:text-wedding-500">Confirme sua presença aqui!</h1>
                 <div className="w-full flex flex-row mt-10 justify-center max-sm:px-2">
                     <form className="text-black max-sm:flex-col" onSubmit={confirmGuest}>
