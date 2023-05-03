@@ -2,8 +2,20 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 import abelImg from '../../public/assets/aerea.jpeg'
+import { useState } from 'react'
 
 export default function Home() {
+  const [days, setDays] = useState<String>()
+
+  var date1 = new Date();
+  var date2 = new Date("2023-08-19T12:01:04.753Z");
+  var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+  var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+
+  useState(()=>{
+    setDays(diffDays.toString())
+  })
+
   return (
     <div>
       <div className="flex justify-center items-center overflow-hidden h-[90vh] max-sm:mt-32 max-sm:items-start">
@@ -29,6 +41,13 @@ export default function Home() {
               animate={{ y: 0 }}
             >
               Pedro 
+            </motion.p> 
+            <motion.p 
+              className="w-auto text-5xl max-sm:w-full flex justify-center uppercase max-sm:text-xl mt-5"
+              initial={{ y: 10 }}
+              animate={{ y: 0 }}
+            >
+              Faltam {days} dias
             </motion.p> 
           </div>
         </div>
