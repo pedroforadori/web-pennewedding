@@ -6,7 +6,7 @@ export default function About() {
             <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-2xl"> Nossa história</h1>
             <div className="grid grid-cols-2 mt-12 max-sm:grid-cols-1 max-md:grid-cols-1 max-md:px-12">
                 <div>
-                    <Image src='/assets/1.jpeg' width={650} height={500} alt="foto casal" />
+                    <Image src='/assets/1.jpeg' width={700} height={500} alt="foto casal" />
                 </div>
                 <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
                                 max-sm:w-auto max-sm:text-xs max-sm:mt-4 max-sm:px-2
@@ -30,10 +30,10 @@ export default function About() {
                     esquecido a blusa dela no banco do bar, e que se ela quisesse de volta, estaria com ele. 
                 </div>
                 <div>
-                    <Image src='/assets/2.jpeg' width={650} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden" />
+                    <Image src='/assets/2.jpeg' width={700} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden" />
                 </div>
                 <div>
-                    <Image src='/assets/3.jpeg' width={650} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden"/>
+                    <Image src='/assets/3.jpeg' width={700} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden"/>
                 </div>
                
                 <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
@@ -57,7 +57,7 @@ export default function About() {
                     de uma linda jornada juntos...
                 </div>
                 <div>
-                    <Image src='/assets/4.jpeg' width={650} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden" />
+                    <Image src='/assets/4.jpeg' width={700} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden" />
                 </div>
             </div>
         </div>
