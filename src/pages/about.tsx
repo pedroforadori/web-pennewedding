@@ -6,7 +6,7 @@ export default function About() {
         <div className="bg-white flex items-center flex-col">
             <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-2xl">Sobre a Festa</h1>
             <div className="py-10">
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2 max-sm:grid-cols-1">
                     <div className="flex flex-col mt-10 text-xl justify-center gap-2">
                         <p>
                             <span className="font-bold">Espaço: </span>Recanto Flor da Vila
