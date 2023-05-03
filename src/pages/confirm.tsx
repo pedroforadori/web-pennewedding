@@ -89,7 +89,7 @@ export default function Confirm() {
                 </div>
                 <div className="flex justify-arround items-center mt-10">
                     {confirmed && (
-                        <p className="text-4xl text-wedding-500 text-bold font-bold flex justify-center text-justify w-full max-sm:mt-2  max-sm:text-2xl">
+                        <p className="text-4xl text-white text-bold font-bold flex justify-center text-justify w-full max-sm:mt-2  max-sm:text-2xl max-sm:text-wedding-500">
                         {confirmed}
                         <Leaf size={32}/>
                         </p>

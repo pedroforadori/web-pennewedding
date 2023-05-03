@@ -10,18 +10,19 @@ export default function ListPresent() {
             <div className="flex flex-wrap justify-center">
                 {list.map(item => (
                     <div className="flex items-center mt-10 px-3" key={item.id}>
-                        <div className="bg-green-50 w-[300px] px-10 py-10">
+                        <div className="border rounded-xl border-wedding-100 w-[300px] px-10 py-10 shadow-xl">
                             {/* <h2 className="text-lg font-bold text-wedding-500 text-center">
                                 {item.title}
                             </h2> */}
-                            <div className="min-h-[300px] flex justify-center items-center">
-                                <Image src={item.image} alt={item.title} width={200} height={200} className="py-2"/>
-                            </div>
-                            <p className="text-center text-wedding-500 font-bold">{item.resume}</p>
-                            <p className="text-center text-lg font-bold text-wedding-500 py-3">{item.value}</p>
-                            <Link href={item.buy} className="flex bg-wedding-500 w-auto text-white justify-center py-3 mt-3 hover:opacity-80" target="_blank">
-                                Presentear
-                            </Link>
+                            
+                                <div className="min-h-[300px] flex justify-center items-center">
+                                    <Image src={item.image} alt={item.resume} width={200} height={200} className="py-2"/>
+                                </div>
+                                <p className="min-h-[100px] text-center text-wedding-500 font-bold">{item.resume}</p>
+                                <p className="text-center text-lg font-bold text-wedding-500 py-3">{item.value}</p>
+                                <Link href={item.buy} className="flex bg-wedding-500 w-auto text-white justify-center py-4 mt-3 rounded-lg hover:opacity-80" target="_blank">
+                                    Presentear
+                                </Link>
                         </div>
                     </div>
                     

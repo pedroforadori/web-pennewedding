@@ -36,7 +36,7 @@ export default function Header() {
       </Link>
 
       <Link
-        href="https://github.com/pedroforadori"
+        href="/about"
         className="hover:underline"
       >
         Sobre a Festa
