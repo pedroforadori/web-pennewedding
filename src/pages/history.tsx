@@ -9,7 +9,7 @@ export default function About() {
                     <Image src='/assets/chao-vila.JPG' width={650} height={500} alt="foto casal" />
                 </div>
                 <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
-                                max-sm:w-auto max-sm:text-xs max-sm:mt-4
+                                max-sm:w-auto max-sm:text-xs max-sm:mt-4 max-sm:px-2
                                 max-md:w-auto max-md:px-20 
                                 max-lg:text-xs max-lg:w-[400px]
                                 max-xl:text-xs max-xl:w-[500px]">
@@ -17,7 +17,7 @@ export default function About() {
                     acabaria resultando nessa história de amor que iremos contar abaixo:
                 </div>
                 <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
-                                max-sm:w-auto max-sm:text-xs 
+                                max-sm:w-auto max-sm:text-xs max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
                                 max-xl:text-xs max-xl:w-[500px]">
@@ -37,7 +37,7 @@ export default function About() {
                 </div>
                
                 <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
-                                max-sm:w-auto max-sm:text-xs 
+                                max-sm:w-auto max-sm:text-xs max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
                                 max-xl:text-xs max-xl:w-[500px]">
@@ -49,7 +49,7 @@ export default function About() {
                      eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
                 <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
-                                max-sm:w-auto max-sm:text-xs max-sm:mb-4 
+                                max-sm:w-auto max-sm:text-xs max-sm:mb-4 max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
                                 max-xl:text-xs max-xl:w-[500px]">
