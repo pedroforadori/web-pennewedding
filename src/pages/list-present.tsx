@@ -14,9 +14,9 @@ export default function ListPresent() {
                             <div className="min-h-[310px] flex justify-center items-center">
                                 <Image src={item.image} alt={item.resume} width={200} height={200} className="py-2"/>
                             </div>
-                            <p className="min-h-[100px] text-center flex items-center justify-center text-wedding-500 font-bold">{item.resume}</p>
-                            <p className="text-center text-lg font-bold text-wedding-500 py-3">{item.value}</p>
-                            <Link href={item.buy} className="flex bg-wedding-500 w-auto text-white justify-center py-4 mt-3 rounded-lg hover:opacity-80" target="_blank">
+                            <p className="min-h-[100px] text-center flex items-center justify-center text-wedding-500 text-xl font-bold">{item.resume}</p>
+                            <p className="text-center text-xl font-bold text-wedding-500 py-3">{item.value}</p>
+                            <Link href={item.buy} className="flex bg-wedding-500 w-auto text-white justify-center py-4 mt-3 rounded-lg text-lg hover:opacity-80" target="_blank">
                                 Presentear
                             </Link>
                         </div>
