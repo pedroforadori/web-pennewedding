@@ -16,7 +16,7 @@ export default function About() {
                     Quem diria que um furo de um amigo do Pedro para assistir o jogo do Palmeiras e um encontro mal sucedido do tinder da Tanne, 
                     acabaria resultando nessa história de amor que iremos contar abaixo:
                 </div>
-                <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
                                 max-sm:w-auto max-sm:text-xs 
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
@@ -36,7 +36,7 @@ export default function About() {
                     <Image src='/assets/chao-vila.JPG' width={650} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden"/>
                 </div>
                
-                <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
                                 max-sm:w-auto max-sm:text-xs 
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
@@ -48,7 +48,7 @@ export default function About() {
                      a história da blusa porquê foi a primeira coisa que passou pela cabeça dele às 2h da manhã enquanto ele a procurava. Desde então, 
                      eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
-                <div className="flex justify-center items-center w-[650px] text-lg px-10 py-5
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5
                                 max-sm:w-auto max-sm:text-xs max-sm:mb-4 
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
