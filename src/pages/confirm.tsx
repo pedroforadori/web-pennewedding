@@ -60,7 +60,7 @@ export default function Confirm() {
     return (
         <div className="max-sm:bg-white flex">
             <div className="h-[90vh] flex flex-col items-center justify-center ml-10 max-sm:ml-0">
-                <h1 className="text-6xl text-white text-bold max-sm:text-2xl max-sm:text-wedding-500">Confirme sua presença aqui!</h1>
+                <h1 className="text-6xl text-white text-bold max-sm:text-2xl max-sm:text-wedding-500 font-aerotis">Confirme sua presença aqui!</h1>
                 <div className="w-full flex flex-row mt-10 justify-center max-sm:px-2">
                     <form className="text-black max-sm:flex-col" onSubmit={confirmGuest}>
                         <input 
@@ -89,7 +89,8 @@ export default function Confirm() {
                 </div>
                 <div className="flex justify-arround items-center mt-10">
                     {confirmed && (
-                        <p className="text-4xl text-white text-bold font-bold flex justify-center text-justify w-full max-sm:mt-2  max-sm:text-2xl max-sm:text-wedding-500">
+                        <p className="text-4xl text-white text-bold font-bold flex justify-center text-justify w-full font-aerotis
+                        max-sm:mt-2  max-sm:text-2xl max-sm:text-wedding-500">
                         {confirmed}
                         <Leaf size={32}/>
                         </p>
