@@ -6,7 +6,7 @@ export default function About() {
     return(
         <div className="bg-white flex items-center flex-col">
             <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-4xl">Sobre a Festa</h1>
-            <div className="py-10 mx-2">
+            <div className="py-8 mx-2">
                 <div className="grid grid-cols-2 max-sm:grid-cols-1 text-wedding-500">
                     <div className="flex flex-col mt-10 text-xl gap-2 justify-center items-center text-justify max-sm:text-xs mx-2">
                         <p>
@@ -40,21 +40,32 @@ export default function About() {
                 </div>
                 <div className="flex flex-col mt-10 text-xl mb-60 justify-center items-center text-justify max-sm:text-xs text-wedding-500 font-bold">
                     Contato para locação de van
-                    <div className="flex flex-wrap mt-2">
-                        <AddressBook size={32} weight="thin" />
-                        <div className="text-xs font-semibold">
-                            <p>Gold Turismo</p>
-                            <p>11 97575-1709</p>
+                    <div className="flex flex-wrap mt-2 gap-2">
+                        
+                        <div className="text-xs font-semibold flex flex-row">
+                            <AddressBook size={32} weight="thin" />
+                            <div>
+                                <p>Gold Turismo</p>
+                                <p>11 97575-1709</p>    
+                            </div>
+                            
                         </div>
-                        <AddressBook size={32} weight="thin" className="ml-3"/>
-                        <div className="text-xs font-semibold">
-                            <p>Breno</p>
-                            <p>11 97498-2426</p>
+                        
+                        <div className="text-xs font-semibold flex flex-row">
+                            <AddressBook size={32} weight="thin" />
+                            <div>
+                                <p>Breno</p>
+                                <p>11 97498-2426</p>
+                            </div>
+                            
                         </div>
-                        <AddressBook size={32} weight="thin" className="ml-3"/>
-                        <div className="text-xs font-semibold">
-                            <p>Andrisa Turismo</p>
-                            <p>11 97952-6266</p>
+                        
+                        <div className="text-xs font-semibold flex flex-row">
+                            <AddressBook size={32} weight="thin" />
+                            <div>
+                                <p>Andrisa Turismo</p>
+                                <p>11 97952-6266</p>
+                            </div>
                         </div>
                     </div>
                 </div>
