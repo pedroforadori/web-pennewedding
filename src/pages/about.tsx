@@ -62,10 +62,10 @@ export default function About() {
                         
                         <div className="text-xs font-semibold flex flex-row">
                             <AddressBook size={32} weight="thin" />
-                            <div>
+                            <Link href="https://wa.me/5511979526266?">
                                 <p>Andrisa Turismo</p>
                                 <p>11 97952-6266</p>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
