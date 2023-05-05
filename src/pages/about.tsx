@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AddressBook } from "phosphor-react";
+import { WhatsappLogo } from "phosphor-react";
 
 export default function About() {
     return(
@@ -42,29 +42,33 @@ export default function About() {
                     Contato para locação de van
                     <div className="flex flex-wrap mt-2 gap-2">
                         
-                        <div className="text-xs font-semibold flex flex-row">
-                            <AddressBook size={32} weight="thin" />
-                            <div>
-                                <p>Gold Turismo</p>
-                                <p>11 97575-1709</p>    
-                            </div>
-                            
+                        <div className="text-xs font-semibold flex flex-row items-center">
+                            <Link href="https://wa.me/5511975751709?" className="flex flex-row items-center">
+                                <WhatsappLogo size={30} weight="thin" />
+                                <div>
+                                    <p>Gold Turismo</p>
+                                    <p className="underline">11 97575-1709</p>    
+                                </div>
+                            </Link>
                         </div>
                         
                         <div className="text-xs font-semibold flex flex-row">
-                            <AddressBook size={32} weight="thin" />
-                            <div>
-                                <p>Breno</p>
-                                <p>11 97498-2426</p>
-                            </div>
-                            
+                            <Link href="https://wa.me/5511974982426?" className="flex flex-row items-center">
+                                <WhatsappLogo size={30} weight="thin" />
+                                <div>
+                                    <p>Breno</p>
+                                    <p className="underline">11 97498-2426</p>
+                                </div>
+                            </Link>
                         </div>
                         
                         <div className="text-xs font-semibold flex flex-row">
-                            <AddressBook size={32} weight="thin" />
-                            <Link href="https://wa.me/5511979526266?">
-                                <p>Andrisa Turismo</p>
-                                <p>11 97952-6266</p>
+                            <Link href="https://wa.me/5511979526266?" className="flex flex-row items-center">
+                                <WhatsappLogo size={30} weight="thin" />
+                                <div>
+                                    <p>Andrisa Turismo</p>
+                                    <p className="underline">11 97952-6266</p>
+                                </div>
                             </Link>
                         </div>
                     </div>
