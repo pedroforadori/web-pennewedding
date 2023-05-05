@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function About() {
     return(
         <div className="bg-white flex items-center flex-col">
-            <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-2xl"> Nossa História</h1>
+            <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-4xl"> Nossa História</h1>
             <div className="grid grid-cols-2 mt-12 max-sm:grid-cols-1 max-md:grid-cols-1 max-md:px-12">
                 <div>
                     <Image src='/assets/1.jpeg' width={700} height={500} alt="foto casal" />
                 </div>
-                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5 text-wedding-500 font-semibold
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-3 text-wedding-500 font-semibold text-justify
                                 max-sm:w-auto max-sm:text-xs max-sm:mt-4 max-sm:px-2
                                 max-md:w-auto max-md:px-20 
                                 max-lg:text-xs max-lg:w-[400px]
@@ -16,7 +16,7 @@ export default function About() {
                     Quem diria que um furo de um amigo do Pedro para assistir o jogo do Palmeiras e um encontro mal sucedido do tinder da Tanne, 
                     acabaria resultando nessa história de amor que iremos contar abaixo:
                 </div>
-                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5 text-wedding-500 font-semibold
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-3 text-wedding-500 font-semibold text-justify
                                 max-sm:w-auto max-sm:text-xs max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
@@ -36,7 +36,7 @@ export default function About() {
                     <Image src='/assets/3.jpeg' width={700} height={500} alt="foto casal" className="max-sm:hidden max-md:hidden"/>
                 </div>
                
-                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5 text-wedding-500 font-semibold
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-3 text-wedding-500 font-semibold text-justify
                                 max-sm:w-auto max-sm:text-xs max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
@@ -48,7 +48,7 @@ export default function About() {
                      a história da blusa porquê foi a primeira coisa que passou pela cabeça dele às 2h da manhã enquanto ele a procurava. Desde então, 
                      eles sempre souberam que viveriam uma história linda, no tempo deles, quando estivessem preparados para receber o amor um do outro!
                 </div>
-                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-5 text-wedding-500 font-semibold
+                <div className="flex justify-center items-center w-[650px] text-xl px-10 py-3 text-wedding-500 font-semibold text-justify
                                 max-sm:w-auto max-sm:text-xs max-sm:mb-4 max-sm:px-2
                                 max-md:w-auto max-md:px-20
                                 max-lg:text-xs max-lg:w-[400px]
