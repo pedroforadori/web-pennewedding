@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AddressBook } from "phosphor-react";
 
 export default function About() {
     return(
@@ -27,8 +28,8 @@ export default function About() {
                             </Link>
                         </p>
                     </div>
-                    <div className="flex justify-center items-center mt-4">
-                        <Image src="/assets/naiara.webp" alt="mapa" width={500} height={500} />
+                    <div className="flex justify-center items-center mt-4 shadow-lg">
+                        <Image src="/assets/mapa-flor-vila.jpg" alt="mapa" width={500} height={500} />
                     </div>
                 </div>
                 
@@ -40,6 +41,7 @@ export default function About() {
                 <div className="flex flex-col mt-10 text-xl mb-28 justify-center items-center text-justify max-sm:text-xs">
                     Contato para locação de van
                     <div className="flex flex-row">
+                        <AddressBook size={32} weight="thin" />
                         
                     </div>
                 </div>
