@@ -23,7 +23,7 @@ export default function About() {
                             <Link href="https://waze.com/ul?a=share_drive&locale=pt_BR&sd=-v3ANDKhD9MZy0J23A-sd&env=row&utm_source=waze_app&utm_campaign=share_drive">
                                 <Image src="/assets/waze.png" alt="waze" width={20} height={20} />
                             </Link>
-                            <Link href="https://waze.com/ul?a=share_drive&locale=pt_BR&sd=-v3ANDKhD9MZy0J23A-sd&env=row&utm_source=waze_app&utm_campaign=share_drive">
+                            <Link href="https://maps.app.goo.gl/K7r5Vft5hP7NecaLA ">
                                 <Image src="/assets/google-maps.png" alt="waze" width={20} height={20} />
                             </Link>
                         </p>
