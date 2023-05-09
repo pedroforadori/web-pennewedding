@@ -13,7 +13,7 @@ export default function Header() {
        
       </Link>
       
-      <div className="flex justify-end text-wedding-500 gap-7 text-2xl font-bold max-sm:text-[8px] max-sm:bg-white max-sm:bg-opacity-80 max-sm:gap-2 uppercase">
+      <div className="flex justify-end text-wedding-500 gap-7 text-xl font-bold max-sm:text-[8px] max-sm:bg-white max-sm:bg-opacity-80 max-sm:gap-2 max-sm:uppercase max-sm:text-2xl">
       <Link
         href="/history"
         className="hover:underline"
