@@ -5,7 +5,7 @@ import list from "../data/list"
 
 export default function ListPresent() {
     return(
-        <div className="bg-white flex items-center flex-col">
+        <div className="bg-white flex items-center flex-col  mt-[-80px]">
             <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-4xl">Lista de Presentes</h1>
             <div className="flex flex-wrap justify-center mb-12">
                 {list.map(item => (

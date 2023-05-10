@@ -6,7 +6,7 @@ export default function Header() {
   const [ isOpen, setIsOpen] = useState(false) 
   
   return (
-    <div className="flex flex-row justify-between w-full bg-white items-center px-7 max-sm:px-1">
+    <div className="flex flex-row justify-between w-full bg-transparent items-center px-7 max-sm:px-1">
         <div className="h-16 my-auto text-wedding-500 text-xl mt-4 max-sm:text-xs">
           <div className="flex w-28 flex-row items-center gap-2 hover:opacity-80 cursor-pointer
             max-sm:w-20">

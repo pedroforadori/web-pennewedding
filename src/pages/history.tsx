@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
     return(
-        <div className="bg-white flex items-center flex-col">
+        <div className="bg-white flex items-center flex-col mt-[-80px]">
             <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-4xl"> Nossa História</h1>
             <div className="grid grid-cols-2 mt-12 max-sm:grid-cols-1 max-md:grid-cols-1 max-md:px-12">
                 <div>
