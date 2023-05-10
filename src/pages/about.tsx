@@ -5,7 +5,7 @@ import { WhatsappLogo } from "phosphor-react";
 export default function About() {
     return(
         <div className="bg-white flex items-center flex-col  mt-[-80px]">
-            <h1 className="font-aerotis text-wedding-500 text-7xl mt-12 max-sm:text-4xl">Sobre a Festa</h1>
+            <h1 className="font-aerotis text-wedding-500 text-7xl mt-20 max-sm:text-4xl">Sobre a Festa</h1>
             <div className="py-8 mx-2">
                 <div className="grid grid-cols-1 text-wedding-500">
                     <div className="flex flex-col mt-10 text-xl gap-2 justify-center items-center text-justify max-sm:text-xs mx-2">
