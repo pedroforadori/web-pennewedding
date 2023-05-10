@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-col mt-10 text-xl mb-60 justify-center items-center text-justify max-sm:text-xs text-wedding-500 font-bold">
                     Contato para locação de van
-                    <div className="flex flex-wrap mt-2 gap-2">
+                    <div className="flex flex-wrap justify-center mt-2 gap-2">
                         
                         <div className="text-lg font-semibold flex flex-row items-center">
                             <Link href="https://wa.me/5511975751709?" className="flex flex-row items-center">
