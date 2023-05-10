@@ -12,6 +12,7 @@ export default function Document () {
             <link rel="shortcut icon" href="/assets/eucalipto.ico" />
         </Head>
         <body className="bg-app bg-cover bg-bottom bg-no-repeat h-screen w-screen overflow-x-hidden
+                         
                          max-sm:bg-contain max-sm:h-[90vh]">            
             <Main />
             <NextScript />
