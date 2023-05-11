@@ -42,7 +42,7 @@ export default function About() {
                     Contato para locação de van
                     <div className="flex flex-wrap justify-center mt-2 gap-2">
                         
-                        <div className="text-lg font-semibold flex flex-row items-center">
+                        <div className="text-lg font-semibold flex flex-row items-center max-sm:text-xs">
                             <Link href="https://wa.me/5511975751709?" className="flex flex-row items-center">
                                 <WhatsappLogo size={30} weight="thin" />
                                 <div>
@@ -52,7 +52,7 @@ export default function About() {
                             </Link>
                         </div>
                         
-                        <div className="text-lg font-semibold flex flex-row">
+                        <div className="text-lg font-semibold flex flex-row max-sm:text-xs">
                             <Link href="https://wa.me/5511974982426?" className="flex flex-row items-center">
                                 <WhatsappLogo size={30} weight="thin" />
                                 <div>
@@ -62,7 +62,7 @@ export default function About() {
                             </Link>
                         </div>
                         
-                        <div className="text-lg font-semibold flex flex-row">
+                        <div className="text-lg font-semibold flex flex-row max-sm:text-xs">
                             <Link href="https://wa.me/5511979526266?" className="flex flex-row items-center">
                                 <WhatsappLogo size={30} weight="thin" />
                                 <div>
