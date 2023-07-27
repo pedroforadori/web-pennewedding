@@ -21,6 +21,16 @@ async function listGuest() {
     querySnapshot.forEach((doc) => { 
         guests.push(doc.data()) 
       });
+    guests.sort(function (a, b) {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    })
+    
     setGuest(guests)
 }
 
