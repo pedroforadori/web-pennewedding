@@ -25,21 +25,22 @@ export default function Confirm() {
             setConfirmed("Ops. É necessário digitar email e celular!")
             return
         } else if((await guests)?.length === 0){
+            try {
+                const docRef = await addDoc(collection(firestore, "guest"), {
+                    name: name,
+                    phone: phone,
+                  });
+                  console.log("Document written with ID: ", docRef.id);
+            } catch (error) {
+                console.error("Fail")
+            }
             setConfirmed("Presença confirmada. Esperamos você!")
         } else {
             setConfirmed("Algo deu errado, ou voce ja está confirmado!")
+            return
         }
 
-        try {
-            const docRef = await addDoc(collection(firestore, "guest"), {
-                name: name,
-                phone: phone,
-              });
-    
-              console.log("Document written with ID: ", docRef.id);
-        } catch (error) {
-            console.error("Fail")
-        }
+        
 
     }
 
