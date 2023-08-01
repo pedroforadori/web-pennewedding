@@ -39,9 +39,6 @@ export default function Confirm() {
             setConfirmed("Algo deu errado, ou voce ja está confirmado!")
             return
         }
-
-        
-
     }
 
     async function listGuest(phone: string | any) {
