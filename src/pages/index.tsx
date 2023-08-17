@@ -13,7 +13,7 @@ export default function Home() {
   var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
 
   useState(()=>{
-    setDays(diffDays.toString())
+    setDays(diffDays.toString() === "1" ? "Falta 1 dia" : "Faltam " +  diffDays.toString() + " dias")
   })
 
   return (
@@ -46,8 +46,8 @@ export default function Home() {
               className="w-auto text-5xl max-sm:w-full flex justify-center max-sm:text-xl mt-5 font-aerotis"
               initial={{ y: 10 }}
               animate={{ y: 0 }}
-            >
-              Faltam {days} dias
+            > 
+              {days}
             </motion.p> 
           </div>
         </div>
