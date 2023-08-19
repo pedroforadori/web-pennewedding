@@ -43,7 +43,7 @@ export default function Home() {
               Pedro 
             </motion.p> 
             <motion.p 
-              className="w-auto text-5xl max-sm:w-full flex justify-center max-sm:text-xl mt-5 font-aerotis"
+              className="w-auto text-5xl max-sm:w-full flex justify-center max-sm:text-2xl mt-5 font-aerotis"
               initial={{ y: 10 }}
               animate={{ y: 0 }}
             > 
