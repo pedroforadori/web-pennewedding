@@ -47,7 +47,7 @@ export default function Home() {
               initial={{ y: 10 }}
               animate={{ y: 0 }}
             > 
-              É HOJE!!!
+              É hoje!!!
             </motion.p> 
           </div>
         </div>
