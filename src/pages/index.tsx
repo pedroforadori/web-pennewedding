@@ -13,7 +13,7 @@ export default function Home() {
   var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
 
   useState(()=>{
-    setDays(diffDays.toString() === "1" ? "Falta 1 dia" : "Faltam " +  diffDays.toString() + " dias")
+    //setDays(diffDays.toString() === "1" ? "Falta 1 dia" : "Faltam " +  diffDays.toString() + " dias")
   })
 
   return (
@@ -47,7 +47,7 @@ export default function Home() {
               initial={{ y: 10 }}
               animate={{ y: 0 }}
             > 
-              {days}
+              É HOJE!!!
             </motion.p> 
           </div>
         </div>
